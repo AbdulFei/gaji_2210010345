@@ -889,8 +889,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 -- Membuang data untuk tabel db_gaji.users: ~2 rows (lebih kurang)
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `level`) VALUES
-	(1, '12345678', 'abdulfei@gmail.com', NULL, '$2y$12$gMqDJHOJGG4oMmp5ocD38eeiwv7qAImiHrtEBddFaBsHWc5bjd2Ji', NULL, '2026-01-08 04:46:14', '2026-01-08 05:55:24', 'ADMIN'),
-	(2, '12345678', 'fei01@gmail.com', NULL, '$2y$12$mGykyetG9y5jIg7eWGejtuK/MMi/JBrSkkQWzreDrFZLSSaT9oQsy', NULL, '2026-01-08 05:56:27', '2026-01-15 20:53:37', 'ADMIN');
+	(1, '12345678', 'audelia@gmail.com', NULL, '$2y$12$gMqDJHOJGG4oMmp5ocD38eeiwv7qAImiHrtEBddFaBsHWc5bjd2Ji', NULL, '2026-01-08 04:46:14', '2026-01-08 05:55:24', 'ADMIN'),
+	(2, '12345678', 'lia01@gmail.com', NULL, '$2y$12$mGykyetG9y5jIg7eWGejtuK/MMi/JBrSkkQWzreDrFZLSSaT9oQsy', NULL, '2026-01-08 05:56:27', '2026-01-15 20:53:37', 'ADMIN');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
